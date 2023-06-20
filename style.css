@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: black;
+    padding: 1rem 0;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+button {
+    background-color: rgb(71, 40, 123);
+    color: white;
+
+}
+
+
+h5 {
+    color: white
+}
+
+.gray {
+    color: gray
+}
+
+nav ul {
+    list-style: none;
+}
+
+.container {
+    width: 40rem;
+    margin: 0 auto;
+    height: 1000px;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+    gap: 1.5rem;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.gap-sm {
+    gap: .5rem;
+}
+
+.mb {
+    margin-bottom: .5rem;
+}
+
+main {
+    flex: 2;
+}
+
+.user-card-header {
+    height: 75px;
+    background-color: rgb(71, 40, 123);
+    border: 3px solid rgb(4, 4, 4);
+    position: relative;
+}
+
+.main-avatar {
+    border-radius: 50%;
+    width: 75px;
+    position: absolute;
+    top: 35px;
+    left: 20px;
+}
+
+aside {
+    flex: 1;
+    align-self: flex-start;
+}
+
+.card {
+    margin-bottom: 1.5rem;
+
+
+}
+
+.right-card {
+    background-color: rgb(67, 67, 67);
+}
+
+.topright {
+    border: 3px solid rgb(4, 4, 4);
+    background-color: rgb(67, 67, 67);
+}
+
+a visited {
+    color: blue;
+
+}
+
+.body-2-header {
+    height: 35px;
+    background-color: rgb(67, 67, 67);
+
+}
+
+.paragraph {
+    padding: 15px;
+
+}
+
+.pics {
+    height: 20px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 50%;
+}
+
+.pics2 {
+    height: 20px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 50%;
+}
+
+.friends {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: blueviolet;
+}
+
+.row {
+    height: 0px;
+    display: inline-block;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.icons {
+    height: 20px;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 50%;
+}
+
+.accept {
+    height: 20px;
+}
